@@ -1,3 +1,11 @@
+# uptime
+
+一个状态监控页 ([Here](https://status.wyf9.top))
+
+~~ 捣鼓半天才发现得用release的构建版的我 ← joker ~~
+
+> 以下为原 README 内容
+
 # uptime-status
 
 一个基于 UptimeRobot API 的在线状态面板
