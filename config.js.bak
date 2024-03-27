@@ -7,12 +7,14 @@ window.Config = {
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
     'm796639484-065cef0bdcea5cab38696c3d',
+    // cf pages homepage
     'm796645318-69e93dacd033d4e436681dbc',
+    // cf pages doc
 
   ],
 
   // 日志天数
-  CountDays: 365,
+  CountDays: 90,
 
   // 是否显示检测站点的链接
   ShowLink: true,
@@ -20,16 +22,12 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
-      text: 'Homepage',
+      text: 'Home',
       url: 'https://wyf9.top/'
     },
     {
-      text: 'Repo',
-      url: 'https://github.com/wyf01239/uptime'
-    },
-    {
       text: 'GitHub',
-      url: 'https://github.com/wyf9'
+      url: 'https://github.com/wyf01239/uptime'
     },
     {
       text: 'Email',
