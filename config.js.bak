@@ -12,6 +12,10 @@ window.Config = {
     // cf pages doc
     'm796645532-663e04a3bb773002da375a5f',
     // cf pages sources
+    'm796646228-8bdf204db7b9fcb2932fd120',
+    // cf workers shorter url
+    'm796646237-934c184984c4c3064fb0765d',
+    // cf workers website proxy
     'm796645537-4e7864358373d3952f0cc0b6',
     // render wlibrechat
     'm796645539-f58effc1156bfcd17dcc16f6',

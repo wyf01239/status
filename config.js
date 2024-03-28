@@ -20,6 +20,8 @@ window.Config = {
     // render wlibrechat
     'm796645539-f58effc1156bfcd17dcc16f6',
     // vercel chatgpt next web
+    'm796651374-bd81dbf5d7d3904e25b9ab41',
+    // onecloud alist
 
   ],
 
