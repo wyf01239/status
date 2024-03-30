@@ -5,6 +5,8 @@ import UptimeRobot from './uptimerobot';
 import Package from '../../package.json';
 
 function App() {
+  
+  const currentYear = new Date().getFullYear(); // 获取当前年份
 
   const apikeys = useMemo(() => {
     const { ApiKeys } = window.Config;
@@ -22,7 +24,7 @@ function App() {
             <UptimeRobot key={key} apikey={key} />
           ))}
         </div>
-        <div id='footer'>Copyright &copy; 2020-(year) <Link to='https://wyf9.top' text='wyf9' />. - Powered by <Link to='https://status.org.cn' text='STATUS.ORG.CN' />, Version {Package.version}</div>
+        <div id='footer'>Copyright &copy; 2020-{currentYear} <Link to='https://wyf9.top' text='wyf9' />. - Powered by <Link to='https://status.org.cn' text='STATUS.ORG.CN' />, Version {Package.version}</div>
       </div>
     </>
   );
