@@ -5,8 +5,14 @@ import UptimeRobot from './uptimerobot';
 import Package from '../../package.json';
 
 function App() {
-  
-  const currentYear = new Date().getFullYear(); // 获取当前年份
+
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  const hour = String(now.getHours()).padStart(2, '0');
+  const minute = String(now.getMinutes()).padStart(2, '0');
+  const second = String(now.getSeconds()).padStart(2, '0');
 
   const apikeys = useMemo(() => {
     const { ApiKeys } = window.Config;
@@ -24,7 +30,7 @@ function App() {
             <UptimeRobot key={key} apikey={key} />
           ))}
         </div>
-        <div id='footer'>Copyright &copy; 2020-{currentYear} <Link to='https://wyf9.top' text='wyf9' />. - Powered by <Link to='https://status.org.cn' text='STATUS.ORG.CN' />, Version {Package.version}</div>
+        <div id='footer'>Copyright &copy; 2020-{year} <Link to='https://wyf9.top' text='wyf9' />. - Powered by <Link to='https://status.org.cn' text='STATUS.ORG.CN' />, Version {Package.version} - {year}-{month}-{day} {hour}:{minute}:{second}</div>
       </div>
     </>
   );
