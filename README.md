@@ -2,9 +2,26 @@
 
 一个状态监控页 ([Here](https://status.wyf9.top))
 
-From [yb/uptime-status](https://github.com/yb/uptime-status)
+由 [yb/uptime-status](https://github.com/yb/uptime-status) 经过一点点修改而来
 
-> 以下为原 README 内容
+## 部署
+
+1. Fork 本存储库
+2. 编辑 `public/config.js`:
+   - `SiteName`: 要显示的网站名称
+   - `ApiKeys`: 从 UptimeRobot 获取的 API Key，支持 Monitor-Specific API Keys 和 Read-Only API Key
+   - `CountDays`: 要显示的日志天数，建议 60 或 90，显示效果比较好
+   - `ShowLink`: 是否显示站点链接
+   - `Navi`: 导航栏的菜单列表
+3. 替换网站图标 `public/favicon.ico`
+4. (可选) 编辑 `src/components/app.js L27` 的版权信息 **(请务必保留原作者信息)**
+
+### 分支 1 - 云服务部署 (以 Cloudflare Pages 为例)
+
+5. 注册登录 Cloudflare, 绑定域名 (不多叙述)
+6. 转到 `Workers 和 Pages`
+
+> **以下为原 README 内容**
 
 # uptime-status
 
