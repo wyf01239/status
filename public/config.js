@@ -22,6 +22,8 @@ window.Config = {
     // vercel chatgpt next web
     'm796651374-bd81dbf5d7d3904e25b9ab41',
     // onecloud alist
+    'm796717544-b7aca4dd32cb94c70c35f21d',
+    // onecloud cockpit
 
   ],
 
