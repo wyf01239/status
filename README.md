@@ -1,8 +1,8 @@
 # uptime
 
-一个状态监控页 ([Here](https://status.wyf9.top))
+一个基于 UptimeRobot API 的状态监控页 ([Here](https://status.wyf9.top))
 
-由 [yb/uptime-status](https://github.com/yb/uptime-status) 经过一点点修改而来
+由 [yb/uptime-status](https://github.com/yb/uptime-status) 经过**一**点点修改而来
 
 ## 部署
 
@@ -14,7 +14,7 @@
    - `ShowLink`: 是否显示站点链接
    - `Navi`: 导航栏的菜单列表
 3. 替换网站图标 `public/favicon.ico`
-4. (可选) 编辑 `src/components/app.js L27` 的版权信息 **(请务必保留原作者信息)**
+4. (可选) 编辑 `src/components/app.js` 的版权信息 **(请务必保留原作者信息)**
 
 ### 分支 1 - 云服务部署 (以 Cloudflare Pages 为例)
 
