@@ -39,7 +39,7 @@ window.Config = {
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/wyf01239/uptime'
+      url: 'https://github.com/wyf01239/status'
     },
     {
       text: 'Email',
