@@ -1,7 +1,7 @@
 # uptime
 
 一个基于 UptimeRobot API 的状态监控页 ([Here](https://status.wyf9.top))
-
+<!-->
 由 [yb/uptime-status](https://github.com/yb/uptime-status) 经过**一**点点修改而来
 
 ## 部署
@@ -20,7 +20,7 @@
 
 5. 注册登录 Cloudflare, 绑定域名 (不多叙述)
 6. 转到 `Workers 和 Pages`
-
+-->
 > **以下为原 README 内容**
 
 # uptime-status
